@@ -17,7 +17,13 @@
 	}
 
 </style>
-
+	<%
+		String name =request.getParameter("name");
+		String age = request.getParameter("age");
+		String money =request.getParameter("money");
+		
+	
+	%>
 
 </head>
 <body>
@@ -31,15 +37,15 @@
 
 			<tr>
 				<td>이름 :</td>
-				<td><input type="text" name="name" id="name" vlaue=""></td>
+				<td><input type="text" name="name" id="name" value="<%= name %>" readonly></td>
 			</tr>
 			<tr>
 				<td>나이 :</td>
-				<td><input type="text" name="age" id="age" vlaue=""></td>
+				<td><input type="text" name="age" id="age" value="<%=age %>" readonly></td>
 			</tr>
 			<tr>
 				<td>가진돈 :</td>
-				<td><input type="text" name="money" id="money" vlaue=""></td>
+				<td><input type="text" name="money" id="money" value="<%=money%>" readonly></td>
 			</tr>
 		</table>
 	</div>

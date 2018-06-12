@@ -19,6 +19,9 @@
 </style>
 </head>
 <body>
+	<form id="input" action=input.do>
+
+
 	<div id="all">
 		<table id="table" border="1">
 			<tr>
@@ -38,12 +41,13 @@
 				<td><input type="text" name="money" id="money" placeholder="가진돈 "></td>
 			</tr>
 			<tr>
-			<td colspan="2"><button id ="insert" >입력</button></td>
+			<td colspan="2"><input type="submit" id="insert" value="입력"></td>
 			
 			</tr>
 
 		</table>
 	</div>
+	</form>
 </body>
 
 </html>

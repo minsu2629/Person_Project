@@ -12,6 +12,9 @@
 		width: 800px;
 		height: 800px;
 	}
+	#insert{
+		width: 100%;
+	}
 
 </style>
 </head>
@@ -34,7 +37,10 @@
 				<td>가진돈 :</td>
 				<td><input type="text" name="money" id="money" placeholder="가진돈 "></td>
 			</tr>
-
+			<tr>
+			<td colspan="2"><button id ="insert" >입력</button></td>
+			
+			</tr>
 
 		</table>
 	</div>
